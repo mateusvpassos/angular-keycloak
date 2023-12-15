@@ -1,0 +1,31 @@
+// app.component.scss
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+  
+    h1 {
+      color: #007bff;
+    }
+  
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #b60e0e;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #ff0000;
+      }
+    }
+  }
+  
