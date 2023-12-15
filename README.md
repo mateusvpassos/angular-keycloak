@@ -1,4 +1,6 @@
-# AngularKeycloak
+# Angular Keycloak
+
+docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:23.0.1 start-dev
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
 
